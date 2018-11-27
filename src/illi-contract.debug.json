@@ -1,53 +1,61 @@
 {
     "avm": {
         "name": "illi-contract",
-        "hash": "b65c19325d69f837aa04ffd9d72b5b1f"
+        "hash": "3ba2bb59dae017ae7dd3baa5aab09784"
     },
     "compiler": {
         "name": "neo-boa",
-        "version": "0.4.0"
+        "version": "0.4.2"
     },
     "files": [
         {
             "id": 1,
-            "url": "/neo-python/illuminate-nos/src/smartcontracts/illi-contract.py"
+            "url": "/neo-python/illuminate-smart-contract/src/illi-contract.py"
         }
     ],
     "map": [
         {
-            "start": 14,
-            "end": 53,
+            "start": 13,
+            "end": 22,
             "file": 1,
             "method": "Main",
-            "line": 20,
-            "file_line_no": 29
+            "line": 19,
+            "file_line_no": 28
         },
         {
-            "start": 54,
-            "end": 63,
+            "start": 23,
+            "end": 34,
+            "file": 1,
+            "method": "Main",
+            "line": 21,
+            "file_line_no": 30
+        },
+        {
+            "start": 35,
+            "end": 70,
             "file": 1,
             "method": "Main",
             "line": 22,
             "file_line_no": 31
         },
         {
-            "start": 64,
-            "end": 98,
+            "start": 71,
+            "end": 80,
             "file": 1,
             "method": "Main",
             "line": 23,
             "file_line_no": 32
         },
         {
-            "start": 99,
-            "end": 104,
+            "start": 81,
+            "end": 131,
             "file": 1,
             "method": "Main",
             "line": 24,
             "file_line_no": 33
         },
         {
-            "start": 105,
+            "start": 132,
             "end": 136,
             "file": 1,
             "method": "Main",
@@ -56,113 +64,49 @@
         },
         {
             "start": 137,
-            "end": 141,
+            "end": 147,
             "file": 1,
             "method": "Main",
             "line": 26,
             "file_line_no": 35
         },
         {
-            "start": 142,
-            "end": 169,
+            "start": 148,
+            "end": 182,
             "file": 1,
             "method": "Main",
             "line": 27,
             "file_line_no": 36
         },
         {
-            "start": 170,
-            "end": 179,
+            "start": 183,
+            "end": 234,
+            "file": 1,
+            "method": "Main",
+            "line": 28,
+            "file_line_no": 37
+        },
+        {
+            "start": 235,
+            "end": 240,
+            "file": 1,
+            "method": "Main",
+            "line": 29,
+            "file_line_no": 38
+        },
+        {
+            "start": 241,
+            "end": 247,
             "file": 1,
             "method": "Main",
             "line": 30,
             "file_line_no": 39
         },
         {
-            "start": 180,
-            "end": 190,
+            "start": 248,
+            "end": 251,
             "file": 1,
-            "method": "Main",
-            "line": 32,
-            "file_line_no": 41
-        },
-        {
-            "start": 191,
-            "end": 225,
-            "file": 1,
-            "method": "Main",
-            "line": 33,
-            "file_line_no": 42
-        },
-        {
-            "start": 226,
-            "end": 235,
-            "file": 1,
-            "method": "Main",
-            "line": 34,
-            "file_line_no": 43
-        },
-        {
-            "start": 236,
-            "end": 286,
-            "file": 1,
-            "method": "Main",
-            "line": 35,
-            "file_line_no": 44
-        },
-        {
-            "start": 287,
-            "end": 291,
-            "file": 1,
-            "method": "Main",
-            "line": 36,
-            "file_line_no": 45
-        },
-        {
-            "start": 292,
-            "end": 302,
-            "file": 1,
-            "method": "Main",
-            "line": 37,
-            "file_line_no": 46
-        },
-        {
-            "start": 303,
-            "end": 337,
-            "file": 1,
-            "method": "Main",
-            "line": 38,
-            "file_line_no": 47
-        },
-        {
-            "start": 338,
-            "end": 389,
-            "file": 1,
-            "method": "Main",
-            "line": 39,
-            "file_line_no": 48
-        },
-        {
-            "start": 390,
-            "end": 395,
-            "file": 1,
-            "method": "Main",
-            "line": 40,
-            "file_line_no": 49
-        },
-        {
-            "start": 396,
-            "end": 402,
-            "file": 1,
-            "method": "Main",
-            "line": 41,
-            "file_line_no": 50
-        },
-        {
-            "start": 403,
-            "end": 406,
-            "file": 1,
-            "line": 43
+            "line": 32
         }
     ],
     "breakpoints": []
