@@ -4,6 +4,13 @@ from boa.interop.Neo.TriggerType import Application, Verification
 
 """
 Based on @deanpress' https://github.com/deanpress/neosense
+
+Would be imported into neo with paramters 0710 05 True False False
+    0710 - String and array
+    05 - Byte array (returned)
+    True - Storage
+    False False - No dynamic invoke or Payment
+
 """
 
 
@@ -23,6 +30,20 @@ def Main(operation, args):
     :return:
         byterarray: The result of the operation
     """
+
+
+    #check if authorised, via checkwitness()
+    """
+      print("checking if authorized")
+        # Am I who I say I am?
+        user_hash = args[0]
+        authorized = CheckWitness(user_hash)
+        if not authorized:
+            print("Not Authorized")
+            return False
+        print("Authorized")
+    """
+
 
     #blockchain key, is the key stored for the data stored (probably ipfs)
     blockchain_key = args[0]
